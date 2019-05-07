@@ -1,0 +1,169 @@
+From 74dcc729d9c5e763c3ba5add5dfbe7e47f5bb863 Mon Sep 17 00:00:00 2001
+From: rahul <rahul3559@gmail.com>
+Date: Mon, 6 May 2019 14:07:30 -0400
+Subject: [PATCH] bye
+
+---
+ .idea/gitfinal.iml  |  1 +
+ .idea/misc.xml      |  3 +++
+ .idea/modules.xml   |  1 +
+ .idea/vcs.xml       |  2 +-
+ .idea/workspace.xml | 35 ++++++++++++++++++++++++++---------
+ gfinal/awe.py       |  2 +-
+ 6 files changed, 33 insertions(+), 11 deletions(-)
+
+diff --git a/.idea/gitfinal.iml b/.idea/gitfinal.iml
+index 7c9d48f..b2db769 100644
+--- a/.idea/gitfinal.iml
++++ b/.idea/gitfinal.iml
+@@ -4,6 +4,7 @@
+     <content url="file://$MODULE_DIR$" />
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="module" module-name="git" />
+   </component>
+   <component name="TestRunnerService">
+     <option name="projectConfiguration" value="pytest" />
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+index a2e120d..ba24381 100644
+--- a/.idea/misc.xml
++++ b/.idea/misc.xml
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7" project-jdk-type="Python SDK" />
++  <component name="PyCharmProfessionalAdvertiser">
++    <option name="shown" value="true" />
++  </component>
+ </project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+index 44df5d3..f5b4c1f 100644
+--- a/.idea/modules.xml
++++ b/.idea/modules.xml
+@@ -2,6 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
++      <module fileurl="file://$PROJECT_DIR$/../git/.idea/git.iml" filepath="$PROJECT_DIR$/../git/.idea/git.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/gitfinal.iml" filepath="$PROJECT_DIR$/.idea/gitfinal.iml" />
+     </modules>
+   </component>
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+index 94a25f7..35eb1dd 100644
+--- a/.idea/vcs.xml
++++ b/.idea/vcs.xml
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+index 8a6c567..173ac2c 100644
+--- a/.idea/workspace.xml
++++ b/.idea/workspace.xml
+@@ -1,7 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="19e69b53-ae45-4023-84e9-2e6cc81850e7" name="Default Changelist" comment="" />
++    <list default="true" id="19e69b53-ae45-4023-84e9-2e6cc81850e7" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/gitfinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitfinal.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/gfinal/awe.py" beforeDir="false" afterPath="$PROJECT_DIR$/gfinal/awe.py" afterDir="false" />
++    </list>
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -13,8 +20,8 @@
+       <file pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/gfinal/awe.py">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="68">
+-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
++            <state relative-caret-position="119">
++              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+             </state>
+           </provider>
+         </entry>
+@@ -39,13 +46,13 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectFrameBounds" extendedState="7">
++  <component name="ProjectFrameBounds" extendedState="6">
+     <option name="x" value="10" />
+     <option name="y" value="20" />
+     <option name="width" value="1346" />
+     <option name="height" value="688" />
+   </component>
+-  <component name="ProjectLevelVcsManager">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectView">
+@@ -78,7 +85,7 @@
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
+     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+   </component>
+   <component name="RunDashboard">
+@@ -115,7 +122,7 @@
+     <servers />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
++    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+     <editor active="true" />
+     <layout>
+       <window_info id="Favorites" side_tool="true" />
+@@ -142,13 +149,23 @@
+     <option name="LAST_COMMIT_MESSAGE" value="first 12" />
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/../git/git1/apps.py">
++      <provider selected="true" editor-type-id="text-editor" />
++    </entry>
+     <entry file="file://$PROJECT_DIR$/abc.py">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="17">
++          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/../git/finalgit/abc.py">
+       <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+     <entry file="file://$PROJECT_DIR$/gfinal/awe.py">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="68">
+-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
++        <state relative-caret-position="119">
++          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+         </state>
+       </provider>
+     </entry>
+diff --git a/gfinal/awe.py b/gfinal/awe.py
+index 0dc3d9c..f60517b 100644
+--- a/gfinal/awe.py
++++ b/gfinal/awe.py
+@@ -4,4 +4,4 @@ print('Hi')
+ 
+ print ('bye')
+ 
+-print("tye")
+\ No newline at end of file
++print("tye")
+-- 
+2.20.1.windows.1
+
